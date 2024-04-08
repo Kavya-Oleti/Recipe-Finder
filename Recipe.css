@@ -1,0 +1,84 @@
+.container {
+  color: white;
+  background-color:black;
+  padding: 20px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  width: 50%;
+  padding: 10px;
+}
+.recipeListcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.recipeContainer {
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
+}
+.items {
+  
+  box-shadow:  2px 3px 3px 3px grey;
+  padding: 10px;
+  width:fit-content;
+  
+}
+.items img{
+  width: 300px;
+  height: 250px;
+}
+.ingredients {
+  
+  /* margin: 10px; */
+  border: 1px solid darkmagenta;
+  padding:5px 20px;
+  box-shadow: 0px 0px 1px 1px darkmagenta;
+  cursor: pointer;
+  /* background-color: lightpink; */
+  margin-left: 60px;
+  /* padding-left: 60px;
+  padding-right: 60px;
+  text-align: center; */
+  /* margin-top: 10px; */
+}
+.complete {
+  /* margin: 10px; */
+  border: 1px solid darkmagenta;
+  padding: 5px;
+  box-shadow: 0px 0px 1px 1px darkmagenta;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 10px;
+  /* padding-left: 65px;
+  padding-right: 20px;
+  text-align: center; */
+}
+.popup{
+  width: 500px;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+  border-radius: 10px;
+}
+.popup h5{
+  color: crimson;
+  border-bottom: 3px solid blue;
+  width: fit-content;
+  margin-left: 150px;
+}
