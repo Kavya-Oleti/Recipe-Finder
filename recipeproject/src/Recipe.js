@@ -46,8 +46,25 @@ function Navbar() {
       </div>
       {data.length >= 1 ? <ProductList data={data}></ProductList> : null}
 
+      {/* </div> */}
+      {/* <h1>hello</h1> */}
+      {/* <div className="Recipelistcontainer">
+        <div className="recipecontainer"> */}
+      {/* {data.length>=1 ?data:data}
+        {data.map((data) => {
+          <div>
+            <img />
+            <h1>{data.recipe.label}</h1>
+            <p className="ingredients">Ingredients</p>
+            <p className="complete">see complete recipe</p>
+            <button>buy</button>
+          </div>;
+        })}
+        {/* </div>
+      </div> */}
     </div>
   
   );
 }
 
+export default Navbar;
